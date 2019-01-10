@@ -105,6 +105,10 @@ uiService:
   enabled: true
   type: "NodePort"
 
+nlbService:
+  enabled: false
+  port: 80
+
 ConsulConfig: []
 #  - type: secret
 #    name: consul-defaults
